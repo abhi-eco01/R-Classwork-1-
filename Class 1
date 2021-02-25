@@ -1,0 +1,40 @@
+print("Hello, World!")
+2 + 3
+(x = 2 + 3)
+(y = x ** 4)
+vector_of_numeric <- c(5,6,7)
+typeof(vector_of_numeric)
+nummy <- c(2,3,4)
+nummy_int <- c(1L,2L,3L)
+typeof(nummy)
+typeof(nummy_int)
+is.numeric(nummy)
+is.numeric(nummy_int)
+is.double(nummy)
+types <- c("int","double","character")
+types
+typeof(types)
+length(types)
+is.numeric(types)
+is.character(types)
+logicals <- c(TRUE,F,TRUE,T, FALSE)
+logicals
+money_in_chars <- c("20","35","33")
+typeof(money_in_chars)
+money_money <- as.numeric(money_in_chars)
+money_money
+typeof(money_money)
+money_money <- as.numeric(money_in_chars)
+money_money
+typeof(money_money)
+new_money <- c(money_money,"33")
+new_money
+typeof(new_money)
+month.abb
+month.abb[2]
+month.abb[4:7]
+days <- c("Mon","Tue","Wed")
+days
+week_end <- c("Sat","Sun")
+more_days <- c(days,"Thu","Fri",week_end)
+more_days
