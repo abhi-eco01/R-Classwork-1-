@@ -1,0 +1,66 @@
+s1=month.abb[c(1,2)]
+s2= "pluto"
+s3 = month.abb[c(3:12)]
+new_months = c(s1,s2,s3)
+new_months
+
+names <- c("IND", "GBP", "USD", "AED")
+names1 <- "YEN"
+names2 <- c(names[1],names1,names[2:4])
+
+Y=c[1:10]
+(Y*5)
+
+paste(month.abb, "Is Good Month")
+
+(a_list <- list("abcd",123,1:12,month.abb))
+ 
+a_list[[3]][2:5]
+a_list[[4]][9:6]
+
+new_m <- matrix(data = 1:12, nrow = 3)
+new_m
+
+A = matrix(data = c(1,5,6,9,8,7,1,5,6), nrow = 3 , byrow = T)
+A
+
+x1= c(1,9)
+x2 = c(5,7)
+B = matrix(data=c(x1,x2) , nrow = 2 , byrow = T)
+B
+
+
+View(mtcars)
+name
+
+colleges <- c("CIT","GCT","PSG")
+year <- c(2019,2018,2017)
+db <- data.frame(college_names = colleges, year_since = year)
+db
+
+View(db)
+
+df1 = iris
+df1
+df1$class = "Saturday"
+df1
+
+
+name = c("a","b","d","e")
+name1 = "c"
+name3 = c(name[1:2],name1,name[3:4])
+
+col1 = c("Dec","Jan","Oct","Mar","Nov")
+z=month.abb
+col2 = factor(col1, levels = z)
+col2
+
+WER=mtcars[1:5,]
+WER
+
+View(iris)
+l2=iris[0,c(3,5)]
+l2
+
+BBB=names(iris)
+BBB
