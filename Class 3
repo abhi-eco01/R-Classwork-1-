@@ -1,0 +1,76 @@
+for(i in 1:5) print(1:i)
+for(n in c(2,5,10,20,50)) {
+  x <- stats::rnorm(n)
+  cat(n, ": ", sum(x^2), "\n", sep = "")
+}
+f <- factor(sample(letters[1:5], 10, replace = TRUE))
+for(i in unique(f)) print(i)
+
+for (month_name in month.abb[1:4]) {
+  print(paste("This month", month_name, "beautiful!!!"))
+}
+
+c1=c("A","B","C")
+for (players in c1){
+  print(paste("Good Morning",players))
+}
+
+c2=month.abb[10:12]
+for (month in c2){
+  print(paste(month,"Is beautiful"))
+}
+
+c3=month.abb
+for (month in c3){
+  if(month == "Jan","Dec","Nov"){
+    print(paste(month,"Is Festive month"))
+  }else {print(paste(month, "Is normal month"))}
+}
+
+
+names <- c('virat','rohit','ashwin',
+           'rahane','Bumrah','Gayle',
+           'Steyn','AB De',
+           'Dravid',
+           'Ganguly',
+           'blablabla')
+
+for(players in names){
+  if(players == 'Ganguly' || players == 'Gayle'){
+    text <- paste("Happy New Year Dada!")
+  } else { text <- paste("Happy New Year",players)}
+  
+  print(text)
+  
+}
+
+
+
+
+names <- c('virat','rohit','ashwin',
+           'rahane','Bumrah','Gayle',
+           'Steyn','AB De',
+           'Dravid',
+           'Ganguly',
+           'blablabla')
+
+ifelse(names %in% c('Ganguly','Gayle'),
+       "Happy New Year Dada!",
+       paste("Happy New Year",names))
+
+df2=mtcars
+df2$Three_gears= ifelse(df2$gear ==3,"Yes","No")
+df2
+
+ifelse (df2$mpg >= 25)
+
+
+
+MA=df2$mpg >= 25
+MA
+for (val in MA){
+  if (MA = TRUE){
+    print(row.names(df2))
+  }
+}
+
